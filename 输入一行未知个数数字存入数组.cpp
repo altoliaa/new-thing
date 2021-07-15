@@ -10,7 +10,9 @@ int main()
     {
         if (isdigit(c))
         {
+
             ungetc(c, stdin);//将c送回输入流
+            
             scanf("%d", &a[n++]);
         }  
          
